@@ -38,7 +38,7 @@ public class StudentService {
     public void deleteStudent(Long studentId) {
         boolean exits=studentRepo.existsById(studentId);
         if (!exits){
-            throw new IllegalStateException("Student with ID = " +studentId+" does not exists");
+            throw new IllegalStateException("Student with ID = " +studentId+"  not exists");
         }
         studentRepo.deleteById(studentId);
     }

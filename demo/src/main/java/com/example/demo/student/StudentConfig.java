@@ -24,7 +24,7 @@ public class StudentConfig {
             Student sumit = new Student(
                     "Sumit",
                     "Sumit@gmail.com",
-                    LocalDate.of(2000, APRIL, 07)
+                    LocalDate.of(2001, APRIL, 07)
             );
             repo.saveAll(
                     List.of(sujit,sumit)
